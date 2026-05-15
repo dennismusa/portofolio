@@ -6,7 +6,8 @@ import profile from "./Images/profile.png"; // ✅ make sure it's in src/compone
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems = ['Home', 'About', 'Skills', 'Education', 'projects', 'Experience', 'Contact'];
-   const [repos] = useState([]);
+   // eslint-disable-next-line no-unused-vars
+  // const [repos] = useState([]);
   return (
     <div className="min-h-screen bg-gray-50 relative overflow-hidden font-sans">
       {/* ===== Fixed Header ===== */}
@@ -322,7 +323,7 @@ const Home = () => {
 
         <div className="flex items-center justify-between">
           <a
-            href="https://noomayianat.netlify.app/"
+            href="https://github.com/dennismusa/ncdo-website"
             target="_blank"
             rel="noreferrer"
             className="text-[#1D347A] font-semibold hover:text-blue-600"
